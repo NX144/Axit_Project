@@ -1,0 +1,798 @@
+*
+    margin: 0
+    padding: 0
+body
+    overflow-x: hidden
+header
+    width: 100%
+    height: 72px
+    background-color: #000000
+//Логотип
+.logo
+    padding-top: 22.5px
+    padding-left: 150px
+    &_section
+        padding: 0
+//Навигационное меню
+nav
+    padding-top: 25.5px
+    float: right
+    .main
+        padding-right: 148px
+        &_menu
+            text-decoration: none
+            opacity: 0.69
+            color: #ffffff
+            font-family: "Open Sans", sans-serif
+            font-weight: 400
+            padding-right: 23px
+            :last-child
+                padding-right: 0
+            &:hover
+                transition: 0.3s all
+                opacity: 1
+//Общие стили к заголовкам секций
+.header_name
+    display: flex
+    justify-content: center
+    font-size: 36px
+    font-weight: 400
+    text-transform: uppercase
+//Общие стили к линиям после заголовков
+.lines
+    width: 64px
+    height: 2px
+    margin: 0 auto
+    background-color: #ff8b38
+//Общие стили к подтексту заголовка
+.descr
+    display: flex
+    justify-content: center
+    color: #86878b
+    font-family: "Open Sans", sans-serif
+    font-size: 14px
+    font-weight: 400
+    line-height: 20px
+//Общие стили к секциям
+.bg_light
+    position: relative
+    width: 100%
+    background-color: #fff
+.bg_light_gray
+    position: relative
+    width: 100%
+    background-color: #f5f5f5
+.bg_gray
+    position: relative
+    width: 100%
+    background-color: #9a9a9a
+//Основная секция
+.main_section
+    min-height: 362px
+    padding: 110px 149.5px 139.5px 149.5px
+    background-color: #9a9a9a
+    &_h1
+        padding-top: 30px
+        color: #ffffff
+        font-family: 'Raleway', sans-serif
+        font-size: 36px
+        font-weight: 400
+        text-transform: uppercase
+    &_devider
+            margin-left: 6px
+            margin-top: 32.5px
+            width: 65px
+            height: 2px
+            background-color: #fff
+            box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4)
+    &_paragraph
+            display: flex
+            padding-top: 35px 
+            color: #ffffff
+            opacity: 0.8
+            font-family: 'Raleway', sans-serif
+            font-size: 16px
+            font-weight: 200
+            line-height: 20px
+    &_download
+            margin-top: 42px
+            color: #ffffff
+            font-family: "Open Sans", sans-serif
+            font-size: 15px
+            font-weight: 400
+            padding: 10.5px 32px
+            border: 2px white solid
+            background: none
+            border-radius: 1px
+            outline: 0
+            transition: 0.3s all
+            &:hover
+                opacity: 0.7
+    &_aside
+        height: 363px
+        width: 361px
+        float: right
+        background-color: #fff
+        margin-top: 30px
+        border-radius: 5px
+        box-shadow: 0px 10px 21px -10px rgba(0, 0, 0, 0.2)
+        &_header
+            border-radius: 3px 3px 0 0
+            background-color: #f5f5f5
+            width: 100%
+            height: 54px
+            &_title
+                padding-top: 16.5px
+                display: flex
+                justify-content: center
+                color: #333333
+                font-family: "Open Sans", sans-serif
+                font-size: 20px
+                font-weight: 700
+                &_yellow
+                    padding-left: 6px
+                    padding-right: 6px
+                    color: #ff8b38
+        &_form
+            &_name
+                width: 285px
+                height: 31px
+                display: flex
+                margin: 0 auto
+                margin-top: 29px
+                border: none
+                outline: none
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                :placeholder
+                    color: #bdbdbd
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+            &_email
+                width: 285px
+                height: 31px
+                display: flex
+                margin: 0 auto
+                margin-top: 36px
+                border: none
+                outline: none
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                :placeholder
+                    color: #bdbdbd
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+            &_pass
+                width: 285px
+                height: 31px
+                display: flex
+                margin: 0 auto
+                margin-top: 47px
+                border: none
+                outline: none
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                :placeholder
+                    color: #bdbdbd
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+        &_footer
+            border-radius: 0 0 5px 5px
+            width: 100%
+            height: 54px
+            background-color: #ff9b51
+            margin-top: 51px
+            outline: none
+            border: none
+            &_completion
+                padding-top: 0
+                display: flex
+                justify-content: center
+                color: #ffffff
+                font-family: "Open Sans", sans-serif
+                font-size: 15px
+                font-weight: 400
+//Секция с соц.сетями
+.social_media
+    width: 100%
+    height: 105px
+    background-color: #fff
+    &_text
+        padding-left: 152px
+        padding-top: 20px
+        color: #333333
+        font-family: "Open Sans", sans-serif
+        font-size: 20px
+        font-weight: 700
+    &_descr
+        padding-left: 152px
+        padding-top: 4px
+        color: #86878b
+        font-family: "Open Sans", sans-serif
+        font-size: 14px
+        font-weight: 400
+        line-height: 20px
+    &_link
+        width: 634px
+        height: 46px  
+        &_btn
+            padding-right: 167px
+            padding-top: 29.5px
+            float: right
+//Секция с выбором функций
+.features_panel
+    min-height: 595px
+    &_city
+        display: inline
+        float: right
+        padding-top: 171px
+        padding-right: 148px
+    &_btn
+        display: inline-block
+        margin-top: 147px
+        margin-left: 142px
+        &_click
+            display: block
+            width: 112px
+            height: 112px
+            margin-bottom: 1px
+            background: none
+            background-color: #333333
+            border-radius: 3px
+            border: none
+            outline: none
+            color: #ffffff
+            font-family: "Open Sans", sans-serif
+            font-size: 15px
+            font-weight: 700
+            text-transform: uppercase
+            transition: 0.3s all
+            &:hover
+                background-color: #ff8b38
+        &_main
+            //Button style
+            position: absolute
+            width: 121px
+            height: 46px
+            outline: none
+            background-color: #ff8b38
+            border: none
+            border-radius: 3px
+            bottom: 0
+            //Button style text
+            color: #ffffff
+            font-family: "Open Sans", sans-serif
+            font-size: 15px
+            font-weight: 400
+            transition: 0.3s all
+            &:hover
+                background-color: #333333
+    &_main
+        display: inline-block
+        width: 477px
+        height: 302px
+        position: absolute
+        padding-top: 155px
+        padding-left: 99px
+    &_text
+        color: #000000
+        font-family: "Open Sans", sans-serif
+        font-size: 20px
+        font-weight: 700
+    &_descr
+        padding-top: 52px
+        color: #86878b
+        font-family: "Open Sans", sans-serif
+        font-size: 14px
+        font-weight: 400
+        line-height: 20px
+//Первая секция
+.first_section
+    height: 596px
+    &_photo
+        width: 453px
+        height: 303px
+        display: inline-block
+        margin-top: 127px
+        margin-left: 152px
+        background-color: #9a9a9a
+        box-shadow: 0px 13px 48px -16px rgba(0,0,0,0.65)
+    &_aside
+        width: 434px
+        height: 356px
+        position: absolute
+        display: inline-block
+        right: 0
+        padding-top: 107px
+        padding-right: 168px
+        &_name
+            color: #212121
+            font-family: "Open Sans", sans-serif
+            font-size: 20px
+            font-weight: 700
+        &_line
+            width: 64px
+            height: 2px
+            margin-top: 25px
+            background-color: #ff8b38
+        &_text
+            padding-top: 25px
+            color: #86878b
+            font-family: "Open Sans", sans-serif
+            font-size: 14px
+            font-weight: 400
+            line-height: 20px
+        &_block
+            position: relative
+            width: 434px
+            height: 177px
+            padding-top: 46px
+            &_upload
+                position: relative
+                width: 100%
+                height: 56px
+                &_round
+                    position: absolute
+                    display: inline-block
+                    width: 40px
+                    height: 40px
+                    border: 2px #ff8b38 solid
+                    border-radius: 100%
+                    text-align: center
+                    img
+                        position: relative
+                        top: 50%
+                        transform: translateY(-50%)
+                &_name
+                    position: relative
+                    float: right
+                    width: 361px
+                    height: 56px
+                    display: inline-block
+                    &_text
+                        color: #212121
+                        font-family: "Open Sans", sans-serif
+                        font-size: 14px
+                        font-weight: 400
+                    &_descr
+                        position: absolute
+                        bottom: 0
+                        color: #86878b
+                        font-family: "Open Sans", sans-serif
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 20px
+            &_unload
+                width: 100%
+                height: 79px
+                position: absolute
+                bottom: 0
+                &_round
+                    width: 40px
+                    height: 40px
+                    display: inline-block
+                    border: 2px #ff8b38 solid
+                    border-radius: 100%
+                    text-align: center
+                    img
+                        position: relative
+                        top: 50%
+                        transform: translateY(-50%)
+                &_name
+                    position: relative
+                    width: 363px
+                    height: 79px
+                    display: inline-block
+                    margin-left: 23px 
+                    &_text
+                        color: #212121
+                        font-family: "Open Sans", sans-serif
+                        font-size: 14px
+                        font-weight: 400
+                    &_descr
+                        position: absolute
+                        bottom: 0
+                        color: #86878b
+                        font-family: "Open Sans", sans-serif
+                        font-size: 14px
+                        font-weight: 400
+                        line-height: 20px
+//Вторая секция
+.second_section
+    height: 524px
+    &_article
+        width: 475px
+        height: 210px
+        display: inline-block
+        padding-top: 107px
+        padding-left: 152px
+        &_name
+            color: #212121
+            font-family: "Open Sans", sans-serif
+            font-size: 20px
+            font-weight: 700
+            line-height: 43px
+        &_line
+            width: 64px
+            height: 2px
+            margin-top: 25px
+            background-color: #ff8b38
+        &_text
+            padding-top: 25px
+            color: #86878b
+            font-family: "Open Sans", sans-serif
+            font-size: 14px
+            font-weight: 400
+            line-height: 20px
+    &_photo
+        width: 453px
+        height: 303px
+        float: right
+        margin-top: 90px
+        margin-right: 125px
+        background-color: #9a9a9a
+        box-shadow: 0px 13px 48px -16px rgba(0,0,0,0.65)
+//Секция с показом приемуществ
+.procces_panel
+    height: 592px
+    &_name
+        padding-top: 108px
+        color: #212121
+        font-family: 'Raleway', sans-serif
+    &_line
+        margin-top: 25px
+    &_text
+        padding-top: 25px
+    &_advantages
+        width: 1114px
+        height: 197px
+        margin: 0 auto
+        margin-top: 80px
+        &_elements
+            width: 352px
+            height: 197px
+            display: inline-block
+            margin-right: 25px
+            &:last-child
+                margin-right: 0
+            &_round
+                width: 70px
+                height: 70px
+                border: 2px #ff8b38 solid
+                border-radius: 100%
+                margin: 0 auto
+                text-align: center
+                img
+                    position: relative
+                    top: 50%
+                    transform: translateY(-50%)                 
+            &_title
+                display: flex
+                justify-content: center
+                padding-top: 25px
+                color: #333333
+                font-family: "Open Sans", sans-serif
+                font-size: 20px
+                font-weight: 700
+                line-height: 24px
+            &_descr
+                display: flex
+                justify-content: center
+                padding-top: 20px
+                text-align: center
+                color: #86878b
+                font-family: "Open Sans", sans-serif
+                font-size: 14px
+                font-weight: 400
+                line-height: 20px
+//Секция с выбором подписки на сервис
+.pricing_options
+    height: 883px
+    &_name
+        padding-top: 108px
+        color: #212121
+        font-family: 'Raleway', sans-serif
+    &_line
+        margin-top: 25px
+    &_text
+        padding-top: 25px
+    &_block
+        width: 1109px
+        min-height: 462px
+        margin: 0 auto
+        margin-top: 80px
+        &_elements
+            width: 343px
+            min-height: 462px
+            display: inline-block
+            margin-right: 36px
+            &:last-child
+                margin-right: 0
+            &_option
+                width: 100%
+                height: 59px
+                background-color: #333333
+                display: flex
+                justify-content: center
+                align-items: center
+                color: #ffffff
+                font-family: "Open Sans", sans-serif
+                font-size: 20px
+                font-weight: 700
+                line-height: 24px
+            &_price
+                width: 100%
+                height: 100px
+                background-color: #333333
+                margin-top: 1px
+                display: flex
+                justify-content: center
+                align-items: center
+                color: #ffffff
+                font-family: 'Raleway', sans-serif
+                font-size: 94px
+                font-weight: 700
+                line-height: 24px
+                span
+                    font-size: 35px
+            &_period
+                width: 100%
+                height: 51px
+                background-color: #333333
+                display: flex
+                justify-content: center
+                align-items: center
+                color: #ffffff
+                font-family: "Open Sans", sans-serif
+                font-size: 14px
+                font-weight: 400
+                font-style: italic
+                line-height: 24px
+                span
+                    opacity: 0.5
+            &_line
+                width: 100%
+                min-height: 5px
+                background-color: #ff8b38
+                span
+                    padding: 7px 0
+                    display: flex
+                    justify-content: center
+                    color: #ffffff
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 700
+                    line-height: 24px
+                    text-transform: uppercase
+            &_descr
+                width: 100%
+                height: 40px
+                background-color: #fff
+                display: flex
+                justify-content: center
+                align-items: center
+                color: #86878b
+                font-family: "Open Sans", sans-serif
+                font-size: 14px
+                font-weight: 400
+                line-height: 24px
+                text-transform: uppercase
+//Секция с показом сотрудников
+.reviews
+    height: 591px
+    &_name
+        padding-top: 108px
+        color: #212121
+        font-family: 'Raleway', sans-serif
+    &_line
+        margin-top: 25px
+    &_text
+        padding-top: 25px
+    &_block
+        width: 1057px
+        height: 225px
+        margin: 0 auto
+        margin-top: 55px
+        &_elements
+            position: relative
+            width: 273px
+            height: 225px
+            display: inline-block
+            margin-right: 115px
+            &:last-child
+                margin-right: 0
+            &_comment
+                width: 100%
+                height: 147px
+                background: url('../icons/section6/comment.png') center (center / cover) no-repeat
+                margin-bottom: 8px
+                &_text
+                    display: flex
+                    justify-content: center
+                    padding-top: 24px
+                    color: #86878b
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+                    font-style: italic
+            &_photo
+                width: 70px
+                height: 70px
+                border-radius: 100%
+                background-color: #9a9a9a
+                display: inline-block
+                margin-left: 2px
+            &_name
+                position: absolute
+                color: #333333
+                font-family: "Open Sans", sans-serif
+                font-size: 20px
+                font-weight: 700
+                padding-top: 17px
+                padding-left: 15px
+                display: inline-block
+            &_descr
+                position: absolute
+                color: #86878b
+                font-family: "Open Sans", sans-serif
+                font-size: 14px
+                font-weight: 400
+                padding-top: 44px
+                padding-left: 15px
+                display: inline-block
+//Секция с загрузкой дизайна
+.download
+    height: 320px
+    &_name
+        padding-top: 74px
+        color: #fff
+        font-family: 'Raleway', sans-serif
+    &_line
+        margin: 0 auto
+        width: 64px
+        height: 2px
+        margin-top: 21px
+        background-color: #fff
+    &_text
+        display: flex
+        justify-content: center
+        padding-top: 21px
+        opacity: 0.5
+        color: #ffffff
+        font-family: 'Raleway', sans-serif
+        font-size: 16px
+        font-weight: 300
+    &_button
+        margin: 0 auto
+        margin-top: 33px
+        display: block
+        color: #ffffff
+        font-family: "Open Sans", sans-serif
+        font-size: 15px
+        font-weight: 400
+        border: 2px white solid
+        background: none
+        border-radius: 1px
+        padding: 10.5px 32px
+        outline: 0
+        transition: 0.3s all
+        &:hover
+            opacity: 0.7
+//Секция с заполнением контактной формы
+.contact_us
+    height: 612px
+    &_name
+        padding-top: 108px
+        color: #212121
+        font-family: 'Raleway', sans-serif
+    &_line
+        margin-top: 25px
+    &_text
+        padding-top: 25px
+    &_block
+        position: relative
+        width: 1121px
+        height: 154px
+        margin: 0 auto
+        margin-top: 80px
+        &_elements
+            width: 527px
+            height: 154px
+            display: inline-block
+            padding-right: 67px
+            &_name
+                width: 527px
+                height: 31px
+                border: none
+                outline: none
+                margin-bottom: 30px
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                :placeholder
+                    color: #bdbdbd
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+            &_email
+                width: 527px
+                height: 31px
+                border: none
+                outline: none
+                margin-bottom: 30px
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                :placeholder
+                    color: #bdbdbd
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+            &_subject
+                width: 527px
+                height: 31px
+                border: none
+                outline: none
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                :placeholder
+                    color: #bdbdbd
+                    font-family: "Open Sans", sans-serif
+                    font-size: 14px
+                    font-weight: 400
+        &_message
+            position: absolute
+            width: 527px
+            height: 154px
+            display: inline-block
+            &_text
+                width: 517px
+                height: 144px
+                border: none
+                outline: none
+                box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16)
+                color: #bdbdbd
+                font-family: "Open Sans", sans-serif
+                font-size: 14px
+                font-weight: 400
+                resize: none
+                padding-top: 10px
+                padding-left: 10px
+    &_send
+        width: 121px
+        height: 46px
+        margin: 0 auto
+        margin-top: 58px
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: #ff8b38
+        border-radius: 3px
+        bottom: 0
+        //Button style text
+        color: #ffffff
+        font-family: "Open Sans", sans-serif
+        font-size: 15px
+        font-weight: 400
+        outline: none 
+        border: none 
+        transition: 0.3s all
+        &:hover
+            background-color: #333333       
+//Футер
+.footer
+    position: relative
+    width: 100%
+    height: 100px
+    background-color: #000000
+    text-align: center
+    &_social
+        display: block
+        margin: 0 auto
+        padding-top: 21px
+    &_copyright
+        display: inline-block
+        padding-top: 15px
+        opacity: 0.5
+        color: #ffffff
+        font-family: "Open Sans", sans-serif
+        font-size: 12px
+        font-weight: 400
+        transition: 0.1s all
+        &:hover
+            opacity: 1
